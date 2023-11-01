@@ -1,0 +1,40 @@
+Завдання 1
+a=int(input())
+if a%2!=0:
+    print("true")
+else:
+    print("false")
+Завдання 2
+a=int(input())
+b=int(input())
+c=int(input())
+if a<0 and b<0 and c>0:
+    print("Рівно одне з чисел A, B, C позитивне")
+elif a<0 and b>0 and c<0:
+    print("Рівно одне з чисел A, B, C позитивне")
+elif a>0 and b<0 and c<0:
+    print("Рівно одне з чисел A, B, C позитивне")
+elif a<0 and b<0 and c<0:
+    print("Усі числа негативні.")
+Завдання 3
+a=int(input())
+b=int(input())
+if a<b :
+    print(b,a)
+elif a>b :
+    print(a,b)
+elif a==b :
+    print("Числа рівні")
+Завдання 4
+a=int(input())
+b=int(input())
+c=int(input())
+if (a>c) and (a>b):
+    if c>b: print (c)
+    else: print (b)
+if (b>a) and (b>c):
+    if a>c: print (a)
+    else: print (c)
+if (c>a) and (c>b):
+    if a>b: print (a)
+    else: print (b)
